@@ -111,10 +111,10 @@ El Galactic Overlord es un formidable adversario con 50 puntos de vida. Su apari
 
 ## Final Boss
 
-Galactic Overlord : ███████████████████████████████████████████ (50 vidas)
+Galactic Overlord : ███████████████████ (50 vidas)
 
 <p align="center">
-  <img src="/game/assets/Enemy/boss.gif" alt="Galactic Overlord" width="200">
+  <img src="/game/assets/Enemy/boss.gif" alt="Galactic Overlord" width="500">
 </p>
 
 ## Historia: Las Crónicas de la Estrella Oscura
