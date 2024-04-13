@@ -4,7 +4,7 @@ Explora el vasto universo, enfrenta oleadas de enemigos y recolecta potenciadore
 la victoria en este emocionante juego. ¿Tienes lo que se necesita para derrotar al jefe final y 
 reclamar el universo como tuyo?
 
-## Installation
+## Instalación
 
 1. Clone the project repository:
 
