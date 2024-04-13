@@ -1,124 +1,92 @@
-🚀 Explorador del Universo
+# 🚀 Explorador del Universo
+
 Explora el vasto universo, enfrenta oleadas de enemigos y recolecta potenciadores para asegurar 
 la victoria en este emocionante juego. ¿Tienes lo que se necesita para derrotar al jefe final y 
 reclamar el universo como tuyo?
 
-Nave
-                  __|__
-                   _|_
-                  / _ \
-               __/ (_) \__
-          ____/_ ======= _\____
- ________/ _ \(_)_______(_)/ _ \________
-<___+____ (_) | /   _   \ | (_) ____+___>
-  O O O  \___/ |   (_)   | \___/  O O O
-             \__\_______/__/
+## Installation
 
+1. Clone the project repository:
 
-🛸                                                 888     d8b                 
-                                                888     Y8P                 
-                                                888                         
-.d8888b 88888b.  8888b.  .d8888b .d88b. .d8888b 88888b. 88888888b. .d8888b  
-88K     888 "88b    "88bd88P"   d8P  Y8b88K     888 "88b888888 "88b88K      
-"Y8888b.888  888.d888888888     88888888"Y8888b.888  888888888  888"Y8888b. 
-     X88888 d88P888  888Y88b.   Y8b.         X88888  888888888 d88P     X88 
- 88888P'88888P" "Y888888 "Y8888P "Y8888  88888P'888  88888888888P"  88888P' 
-        888                                                888              
-        888                                                888              
-        888                                                888              
+   ```bash
+   git clone https://github.com/DanyRobRey/kodland-test-python.git
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd kodland-test-python
+
+3. Install virtual environment:
+
+    ```bash
+    pip install virtualenv venv
+    python3 -m venv venv
+
+4. Activate virtual environment:
+
+    ```bash
+    .\venv\Scripts\activate
+    source venv/bin/activate 
+
+5. Install the necessary dependencies:
+
+    ```bash 
+    pip install -r requirements.txt
+
+## Local Execution
+
+Ejecuta el proyecto usando:
+
+- ```bash
+  python main.py
+
+## Personajes
+
+1. Nave Principal
+
+![Ship](/game/assets/Spaceship/spaceship.png)
+
+           
 Los cielos estelares están llenos de adversarios, cada uno con sus propias características y puntos de vida. ¡Prepárate para enfrentarte a ellos!
 
-Betrayer    : █████████   (8 vidas)
-[=====>
-[  (    _____
- \__\,-'//   `--._
-  [_/~||,-----.\@_\\___
-  [_) |||()()()   ~[|||>
-  [_\_||`-----'   //
- /  /`-.\\___,--'==(-
-[  (
-[=====>
+## Enemies
 
-Falcon      : ██████     (5 vidas)
+1. Betrayer    : █████████   (8 vidas)
 
-              A   A   A
-             | | | | | |
-           __| |_| |_| |___nnnnnn_____----____-===-----
-   _    __/--| |-| |-|_|---~~~-------~~~---\==/~~\.
-O=|-|OOOOO--<=X===X===X=>-| | |-----| | |>  HHK   |    
-   ~    ~~\--| |-| |-|~|---___-------___---/==\__/'    
-             | | | | | |                            
-             | | | | | |
-              V   V   V                                            
+![Betrayer](/game/assets/Enemy/betrayer.png)
+
+2. Falcon      : ██████     (5 vidas)
 
 
-Lance       : █████      (4 vidas)
-       ____,----._
-   ,--'| _|" o;.  `.____        ____  ,,=====._
- .=|.':| U| ;:;:  .- \,,`-.===='}.,'\//       "`
-(]=|;: |o |  ,.  (  :;)::(     ):;::>}X==========-
- `=| :;|  | ,: o  `-_/``,-`====.}___/\\       _,
-   `--.|__|_ .:  _,' """              ``=====''
-       ~  ~`----'
+![Falcon](/game/assets/Enemy/falcon.png)                                        
 
-Marauder    : ███████    (6 vidas)
-       -][][-
-       /++++\
-      /OOOOOO\
-.=====!oooooo!=====.
- \____\_-_-_-/____/
-      |<><><>|
-       \    /
-      ./\ |/\.
-     ./  ^|  \.
-     /"   |  "\
-   ^^^   ^^^  ^^^
 
-Orbit       : ███        (3 vidas)
-__
-| \
-=[_|H)--._____
-=[+--,-------'
- [|_/""        
+3. Lance       : █████      (4 vidas)
 
-Ovni        : ██         (2 vidas)
+![Lance](/game/assets/Enemy/lance.png)    
 
-                    /~~~~~|
-               .__./''''''|
-._____________/   |/^^^^^^^\
-|             `==="\_______/
-`.             .___/^^^^^^^^\
-  `------------'~~~\________/   
-                  `........\
-                    `-------'
+4. Marauder    : ███████    (6 vidas)
 
-Pylon       : ██         (2 vidas)
+![Marauder](/game/assets/Enemy/marauder.png)   
 
-       -][][-
-       /++++\
-      /OOOOOO\
-.=====!oooooo!=====.
- \____\_-_-_-/____/
-      |<><><>|
-       \    /
-      ./\ |/\.
-     ./  ^|  \.
-     /"   |  "\
-   ^^^   ^^^  ^^^
+5. Orbit       : ███        (3 vidas)
 
-Ship        : █          (1 vida)
-        __(')__
-   (')-//__l|l__\\
-      \O_\/lol\/_O__
-      /O`. [ ]  ;O_L\
-     _\__\_[ ]_/__/_/
-    /'l   l H l   l'\
-   /_\l___l_H_l___l/_\
-  /       /_H_\       \
-_/_       *_|_*       _\_
-          *****
+![Orbit](/game/assets/Enemy/orbit.png)   
 
-🎮 Cómo Jugar
+6. Ovni        : ██         (2 vidas)
+
+![Ovni](/game/assets/Enemy/enemy_ovni.png) 
+
+7. Pylon       : ██         (2 vidas)
+
+![Pylon](/game/assets/Enemy/pylon.png) 
+
+8. Ship        : █          (1 vida)
+
+![Ship](/game/assets/Enemy/enemy_1.png) 
+
+
+## 🎮 Cómo Jugar
 Desplazamiento: Mueve tu nave por el universo para esquivar a los enemigos y recoger potenciadores.
 
 Ataque: Dispara a los enemigos para reducir su salud y eliminarlos del juego.
@@ -140,31 +108,14 @@ Potenciadores: Durante tu aventura, encontrarás varios potenciadores que mejora
 🌌 Jefe Final: Galactic Overlord
 El Galactic Overlord es un formidable adversario con 50 puntos de vida. Su aparición marca la oleada final de tu aventura. ¿Serás capaz de vencerlo?
 
+
+## Final Boss
+
 Galactic Overlord : ██████████████████████████████████████████████████ (50 vidas)
 
-                    oooooOOOOOOOOOOOOOOOOooooo
-                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-                HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-               zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-    .<><><><><><><><><><><><><><><><><><><><><><><><><><><><>.
-  /XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\
-/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\
-\XXX[  ]XXX[  ]XXXX[  ]XXXX[  ]XXXX[  ]XXXX[  ]XXXX[  ]XXX[  ]XXX/
-  \XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/
-      ~~~~\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/~~~~
-               /   ~~~<><><><><><><><><><>~~~   \
-              /      /       |   |          \      \
-             /     /               |          \     \
-            /    /           |                  \    \
-           /   /               |   |              \   \
-          /  /               |                      \  \
-        _/_/                     | |                  \_\_
-       <___>                 |    |                   <___>
-                                    |
-                              |
+![Galactic Overlord](/game/assets/Enemy/boss.gif) 
 
-Historia: Las Crónicas de la Estrella Oscura
+## Historia: Las Crónicas de la Estrella Oscura
 La galaxia Koprulu ha sido testigo de innumerables batallas entre las razas que la habitan: los tecnológicamente avanzados 
 Terran, los misteriosos y psiónicos Protoss y los voraces Zerg. Sin embargo, una nueva amenaza ha surgido de las sombras.
 
