@@ -44,7 +44,9 @@ Ejecuta el proyecto usando:
 
 1. Nave Principal
 
-![Ship](/game/assets/Spaceship/spaceship.png)
+<p align="center">
+  <img src="/game/assets/Spaceship/spaceship.png" alt="Ship" width="200">
+</p>
 
            
 Los cielos estelares están llenos de adversarios, cada uno con sus propias características y puntos de vida. ¡Prepárate para enfrentarte a ellos!
@@ -53,38 +55,52 @@ Los cielos estelares están llenos de adversarios, cada uno con sus propias cara
 
 1. Betrayer    : █████████   (8 vidas)
 
-![Betrayer](/game/assets/Enemy/betrayer.png)
+<p align="center">
+  <img src="/game/assets/Enemy/betrayer.png" alt="Betrayer" width="200">
+</p>
 
 2. Falcon      : ██████     (5 vidas)
 
-
-![Falcon](/game/assets/Enemy/falcon.png)                                        
-
+<p align="center">
+  <img src="/game/assets/Enemy/falcon.png" alt="Falcon" width="200">
+</p>                                 
 
 3. Lance       : █████      (4 vidas)
 
-![Lance](/game/assets/Enemy/lance.png)    
+<p align="center">
+  <img src="/game/assets/Enemy/lance.png" alt="Lance" width="200">
+</p>  
 
 4. Marauder    : ███████    (6 vidas)
 
-![Marauder](/game/assets/Enemy/marauder.png)   
+<p align="center">
+  <img src="/game/assets/Enemy/marauder.png" alt="Marauder" width="200">
+</p>
 
 5. Orbit       : ███        (3 vidas)
 
-![Orbit](/game/assets/Enemy/orbit.png)   
+<p align="center">
+  <img src="/game/assets/Enemy/orbit.png" alt="Orbit" width="200">
+</p>
+  
 
 6. Ovni        : ██         (2 vidas)
 
-![Ovni](/game/assets/Enemy/enemy_ovni.png) 
+<p align="center">
+  <img src="/game/assets/Enemy/enemy_ovni.png" alt="Ovni" width="200">
+</p>
 
 7. Pylon       : ██         (2 vidas)
 
-![Pylon](/game/assets/Enemy/pylon.png) 
+<p align="center">
+  <img src="/game/assets/Enemy/pylon.png" alt="Pylon" width="200">
+</p>
 
 8. Ship        : █          (1 vida)
 
-![Ship](/game/assets/Enemy/enemy_1.png) 
-
+<p align="center">
+  <img src="/game/assets/Enemy/enemy_1.png" alt="Ship" width="200">
+</p>
 
 ## 🎮 Cómo Jugar
 Desplazamiento: Mueve tu nave por el universo para esquivar a los enemigos y recoger potenciadores.
