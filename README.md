@@ -51,7 +51,7 @@ Ejecuta el proyecto usando:
            
 Los cielos estelares están llenos de adversarios, cada uno con sus propias características y puntos de vida. ¡Prepárate para enfrentarte a ellos!
 
-## Enemies
+## Enemigos
 
 1. Betrayer    : █████████   (8 vidas)
 
